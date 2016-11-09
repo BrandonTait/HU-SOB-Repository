@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
   root 'pages#home'
-
+  get  'about' => 'pages#about'
+  get  'majors' =>'pages#majors'
+  get  'schemes' =>'pages#schemes'
+  get 'classes' =>'pages#classes'
+  get 'professors' => 'pages#professors'
+  get 'tutors' => 'pages#tutors'
+  get 'contactus' => 'pages#contactus'
+  get 'accounting' => 'pages#accounting'
+  get 'accountingprinciples' => 'pages#accountingprinciples'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
